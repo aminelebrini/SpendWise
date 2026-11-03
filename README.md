@@ -12,7 +12,7 @@ dépenses groupées par jour, cycles financiers clôturés et archivés, 100 % l
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
 [![Expo Router](https://img.shields.io/badge/Expo%20Router-file--based-000020?logo=expo&logoColor=white)](https://docs.expo.dev/router)
 [![Platform](https://img.shields.io/badge/plateformes-Android%20%C2%B7%20iOS%20%C2%B7%20Web-34D399)](https://docs.expo.dev)
-[![License](https://img.shields.io/badge/license-MIT-FBBF24)](LICENSE)
+[![License](https://img.shields.io/badge/license-Propri%C3%A9taire-FBBF24)](LICENSE)
 
 [**Aperçu**](#-aperçu) · [**Fonctionnalités**](#-fonctionnalités) · [**Stack**](#-stack-technique) · [**Démarrage**](#-démarrage-rapide) · [**Architecture**](#-architecture) · [**Données**](#-modèle-de-données) · [**Roadmap**](#-roadmap)
 
@@ -204,4 +204,7 @@ la réinstallation repart d'un état zéro.
 
 ## 📄 Licence
 
-[MIT](LICENSE) — faites-en bon usage.
+**Propriétaire — Tous droits réservés.** Ce projet n'est pas open source :
+toute copie, modification, distribution ou utilisation de SpendWise (même
+partielle) nécessite l'autorisation écrite préalable de l'auteur.
+Voir [LICENSE](LICENSE).

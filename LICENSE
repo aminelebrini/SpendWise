@@ -1,21 +1,33 @@
-The MIT License (MIT)
+Copyright © 2026 Amine Lebrini. All rights reserved.
 
-Copyright (c) 2015-present 650 Industries, Inc. (aka Expo)
+SpendWise and its source code, assets, design and documentation are the exclusive
+property of Amine Lebrini. This project is NOT open source.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+You may NOT, in whole or in part:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+  1. Copy, reproduce, distribute, publish, sublicense or sell any part of this
+     software or its assets;
+  2. Modify, adapt, translate, reverse engineer, decompile or create derivative
+     works, except as expressly permitted by applicable law;
+  3. Use the name "SpendWise", the logo or the visual identity in any product
+     or service without prior written permission;
+  4. Remove or alter any notice of copyright or ownership.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+No license, express or implied, is granted to any third party. Any permission
+must be requested in writing from the author.
+
+All rights, title and interest in this software remain with Amine Lebrini,
+including all intellectual-property rights, whether registered or unregistered,
+throughout the world.
+
+Unauthorized use, copying or distribution may result in civil and criminal
+liability.
+
+──────────────────────────────────────────────────────────────────────────────
+
+SpendWise et son code source, ses assets, son design et sa documentation sont la
+propriété exclusive d'Amine Lebrini. Ce projet n'est PAS open source.
+
+Aucune permission n'est accordée à des tiers : toute exploitation, copie,
+modification ou distribution, même partielle, nécessite l'autorisation écrite et
+préalable de l'auteur.
