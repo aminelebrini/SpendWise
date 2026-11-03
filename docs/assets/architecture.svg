@@ -1,0 +1,54 @@
+<svg width="1120" height="560" viewBox="0 0 1120 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Architecture SpendWise">
+  <defs>
+    <linearGradient id="layer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0E1B16"/>
+      <stop offset="1" stop-color="#0A1210"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1120" height="560" rx="18" fill="#060B09"/>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <!-- Layer 1 : UI -->
+    <rect x="36" y="26" width="1048" height="86" rx="14" fill="url(#layer)" stroke="#34D399" stroke-opacity="0.45"/>
+    <text x="66" y="60" font-size="11" font-weight="800" fill="#34D399" letter-spacing="2">ÉCRANS — EXPO ROUTER (src/app)</text>
+    <text x="66" y="88" font-size="15" font-weight="700" fill="#F2FBF6">Accueil</text>
+    <text x="180" y="88" font-size="15" font-weight="700" fill="#F2FBF6">Dépenses (par jour)</text>
+    <text x="410" y="88" font-size="15" font-weight="700" fill="#F2FBF6">Historique + détail cycle</text>
+    <text x="700" y="88" font-size="15" font-weight="700" fill="#F2FBF6">Modales : ajout dépense · salaire</text>
+
+    <!-- arrow -->
+    <line x1="560" y1="118" x2="560" y2="140" stroke="#34D399" stroke-width="3"/>
+    <path d="M554 134 L560 146 L566 134 Z" fill="#34D399"/>
+
+    <!-- Layer 2 : components -->
+    <rect x="36" y="150" width="1048" height="78" rx="14" fill="url(#layer)" stroke="#2DD4BF" stroke-opacity="0.4"/>
+    <text x="66" y="182" font-size="11" font-weight="800" fill="#2DD4BF" letter-spacing="2">COMPOSANTS — UI GLASS (src/components)</text>
+    <text x="66" y="210" font-size="14" font-weight="600" fill="#DDE8E0">GlassCard · ExpenseRow · BudgetProgress (vert→rouge) · StatTile · SegmentedControl · Fab · EmptyState</text>
+
+    <line x1="560" y1="234" x2="560" y2="256" stroke="#2DD4BF" stroke-width="3"/>
+    <path d="M554 250 L560 262 L566 250 Z" fill="#2DD4BF"/>
+
+    <!-- Layer 3 : state -->
+    <rect x="36" y="266" width="1048" height="84" rx="14" fill="url(#layer)" stroke="#FBBF24" stroke-opacity="0.4"/>
+    <text x="66" y="298" font-size="11" font-weight="800" fill="#FBBF24" letter-spacing="2">ÉTAT GLOBAL — SINGLE SOURCE OF TRUTH (src/context)</text>
+    <text x="66" y="326" font-size="14" font-weight="700" fill="#F2FBF6">FinanceContext : currentSalary · currentExpenses · financialHistory</text>
+    <text x="66" y="345" font-size="12" font-weight="500" fill="#8AA092">addExpense · deleteExpense · closeCycle (archivage atomique) · write-through après hydratation</text>
+
+    <line x1="560" y1="356" x2="560" y2="378" stroke="#FBBF24" stroke-width="3"/>
+    <path d="M554 372 L560 384 L566 372 Z" fill="#FBBF24"/>
+
+    <!-- Layer 4 : derived stats -->
+    <rect x="36" y="388" width="1048" height="66" rx="14" fill="url(#layer)" stroke="#A78BFA" stroke-opacity="0.4"/>
+    <text x="66" y="416" font-size="11" font-weight="800" fill="#A78BFA" letter-spacing="2">ANALYTIQUE DÉRIVÉE (src/hooks)</text>
+    <text x="66" y="442" font-size="14" font-weight="600" fill="#DDE8E0">useFinanceStats → total · reste · % consommé · par catégorie · moy./jour · plus gros (useMemo, jamais persisté)</text>
+
+    <line x1="560" y1="460" x2="560" y2="478" stroke="#A78BFA" stroke-width="3"/>
+    <path d="M554 472 L560 484 L566 472 Z" fill="#A78BFA"/>
+
+    <!-- Layer 5 : storage -->
+    <rect x="36" y="488" width="1048" height="56" rx="14" fill="url(#layer)" stroke="#FB7185" stroke-opacity="0.4"/>
+    <text x="66" y="510" font-size="11" font-weight="800" fill="#FB7185" letter-spacing="2">PERSISTANCE LOCALE (src/storage)</text>
+    <text x="66" y="534" font-size="13" font-weight="600" fill="#DDE8E0">AsyncStorage · blob unique validé <tspan font-family="monospace">spendwise/finance/v2</tspan> · corruption → démarrage propre</text>
+  </g>
+</svg>

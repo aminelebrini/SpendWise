@@ -1,0 +1,63 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SpendWise — gérez salaire, dépenses et cycles financiers">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1712"/>
+      <stop offset="0.45" stop-color="#060B09"/>
+      <stop offset="1" stop-color="#04080A"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#34D399"/>
+      <stop offset="0.55" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#FBBF24"/>
+    </linearGradient>
+    <linearGradient id="coin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FBBF24"/>
+      <stop offset="0.5" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#34D399" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.5" r="0.55">
+      <stop offset="0" stop-color="#34D399" stop-opacity="0.22"/>
+      <stop offset="0.6" stop-color="#FBBF24" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#glow)"/>
+
+  <!-- Decorative mini bar chart, right side -->
+  <g opacity="0.9">
+    <rect x="905" y="238" width="34" height="90" rx="7" fill="url(#bar)"/>
+    <rect x="953" y="196" width="34" height="132" rx="7" fill="url(#bar)"/>
+    <rect x="1001" y="262" width="34" height="66" rx="7" fill="url(#bar)" opacity="0.7"/>
+    <rect x="1049" y="150" width="34" height="178" rx="7" fill="url(#bar)"/>
+    <rect x="1097" y="214" width="34" height="114" rx="7" fill="url(#bar)" opacity="0.8"/>
+    <rect x="885" y="330" width="266" height="2.5" rx="1.25" fill="#34D399" opacity="0.5"/>
+    <!-- Coin -->
+    <circle cx="1130" cy="108" r="46" fill="url(#coin)"/>
+    <circle cx="1130" cy="108" r="34" fill="none" stroke="#FFF6D6" stroke-opacity="0.55" stroke-width="3" stroke-dasharray="5 7"/>
+    <path d="M1130 84 v48 M1109 97.5 c0-9.5 9.4-15 21-15 s21 5.5 21 15 -9.4 13.5-21 15 -21 5.5-21 15 9.4 15 21 15 21-5.5 21-15"
+          stroke="#3A2503" stroke-width="6.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Pills -->
+  <g font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700">
+    <rect x="64" y="258" rx="14" width="172" height="30" fill="#34D399" fill-opacity="0.12" stroke="#34D399" stroke-opacity="0.4"/>
+    <text x="150" y="278" text-anchor="middle" fill="#34D399">SALAIRE SUIVI</text>
+
+    <rect x="248" y="258" rx="14" width="200" height="30" fill="#FBBF24" fill-opacity="0.12" stroke="#FBBF24" stroke-opacity="0.4"/>
+    <text x="348" y="278" text-anchor="middle" fill="#FBBF24">DÉPENSES MAÎTRISÉES</text>
+
+    <rect x="460" y="258" rx="14" width="210" height="30" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.4"/>
+    <text x="565" y="278" text-anchor="middle" fill="#A78BFA">CYCLES HISTORISÉS</text>
+  </g>
+
+  <!-- Title -->
+  <text x="64" y="158" font-family="Helvetica, Arial, sans-serif" font-size="96" font-weight="800" fill="url(#brand)" letter-spacing="-3">SpendWise</text>
+  <text x="66" y="212" font-family="Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#F2FBF6" opacity="0.92">Salaire suivi, dépenses maîtrisées, cycles clôturés — tout sur votre téléphone.</text>
+  <text x="66" y="240" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#8AA092">تطبيق الراتب والمصاريف للمغربيين · Dirhams · Français ⇄ العربية · 100 % local-first</text>
+</svg>

@@ -1,12 +1,27 @@
 {
   "name": "spendwise",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "dependencies": {
+    "@expo/metro-runtime": "~58.0.16",
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-async-storage/async-storage": "2.2.0",
     "expo": "~58.0.22",
+    "expo-constants": "~58.0.14",
+    "expo-font": "~58.0.11",
+    "expo-haptics": "~58.0.7",
+    "expo-linear-gradient": "~58.0.3",
+    "expo-linking": "~58.0.15",
+    "expo-localization": "~58.0.5",
+    "expo-router": "~58.0.29",
     "expo-status-bar": "~58.0.4",
+    "expo-updates": "~58.0.20",
     "react": "19.3.0",
-    "react-native": "0.88.1"
+    "react-dom": "19.3.0",
+    "react-native": "0.88.1",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-screens": "~4.30.1",
+    "react-native-web": "^0.21.4"
   },
   "devDependencies": {
     "@types/react": "~19.3.0",
@@ -18,5 +33,32 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
-  "private": true
+  "private": true,
+  "description": "Salary tracking, expense management and financial-cycle history — local-first, FR/AR, built for Moroccan personal users (dirhams).",
+  "author": {
+    "name": "Amine Lebrini",
+    "email": "aminelebrini26@gmail.com",
+    "url": "https://github.com/aminelebrini"
+  },
+  "license": "MIT",
+  "keywords": [
+    "salary",
+    "expenses",
+    "budget",
+    "react-native",
+    "expo",
+    "typescript",
+    "cycle",
+    "moroccan",
+    "mad",
+    "dirham",
+    "rtl",
+    "fr-MA",
+    "ar-MA"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aminelebrini/SpendWise.git"
+  },
+  "homepage": "https://github.com/aminelebrini/SpendWise#readme"
 }

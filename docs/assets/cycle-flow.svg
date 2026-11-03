@@ -1,0 +1,57 @@
+<svg width="1200" height="240" viewBox="0 0 1200 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cycle financier SpendWise">
+  <defs>
+    <linearGradient id="step" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122019"/>
+      <stop offset="1" stop-color="#0C1411"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#34D399"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="240" rx="18" fill="#060B09"/>
+
+  <!-- Step 1 -->
+  <g font-family="Helvetica, Arial, sans-serif">
+    <rect x="24" y="46" width="252" height="148" rx="16" fill="url(#step)" stroke="#34D399" stroke-opacity="0.35"/>
+    <circle cx="60" cy="84" r="17" fill="#34D399"/>
+    <text x="60" y="90" text-anchor="middle" font-size="17" font-weight="800" fill="#04060C">1</text>
+    <text x="88" y="91" font-size="17" font-weight="800" fill="#F2FBF6">Salaire</text>
+    <text x="44" y="126" font-size="13.5" font-weight="600" fill="#8AA092">Le montant arrive,</text>
+    <text x="44" y="146" font-size="13.5" font-weight="600" fill="#8AA092">le cycle démarre à 0.</text>
+    <text x="44" y="176" font-size="15" font-weight="800" fill="#34D399">8 500 DH</text>
+
+    <line x1="286" y1="120" x2="312" y2="120" stroke="#34D399" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- Step 2 -->
+    <rect x="322" y="46" width="252" height="148" rx="16" fill="url(#step)" stroke="#FBBF24" stroke-opacity="0.35"/>
+    <circle cx="358" cy="84" r="17" fill="#FBBF24"/>
+    <text x="358" y="90" text-anchor="middle" font-size="17" font-weight="800" fill="#04060C">2</text>
+    <text x="386" y="91" font-size="17" font-weight="800" fill="#F2FBF6">Dépenses</text>
+    <text x="342" y="126" font-size="13.5" font-weight="600" fill="#8AA092">Suivies par jour,</text>
+    <text x="342" y="146" font-size="13.5" font-weight="600" fill="#8AA092">barre verte → rouge.</text>
+    <text x="342" y="176" font-size="15" font-weight="800" fill="#FBBF24">−6 531 DH</text>
+
+    <line x1="584" y1="120" x2="610" y2="120" stroke="#34D399" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- Step 3 -->
+    <rect x="620" y="46" width="252" height="148" rx="16" fill="url(#step)" stroke="#F472B6" stroke-opacity="0.35"/>
+    <circle cx="656" cy="84" r="17" fill="#F472B6"/>
+    <text x="656" y="90" text-anchor="middle" font-size="17" font-weight="800" fill="#04060C">3</text>
+    <text x="684" y="91" font-size="17" font-weight="800" fill="#F2FBF6">Clôture</text>
+    <text x="640" y="126" font-size="13.5" font-weight="600" fill="#8AA092">Au changement de</text>
+    <text x="640" y="146" font-size="13.5" font-weight="600" fill="#8AA092">salaire ou d'emploi.</text>
+    <text x="640" y="176" font-size="15" font-weight="800" fill="#F472B6">vérif + confirmation</text>
+
+    <line x1="882" y1="120" x2="908" y2="120" stroke="#34D399" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- Step 4 -->
+    <rect x="918" y="46" width="258" height="148" rx="16" fill="url(#step)" stroke="#A78BFA" stroke-opacity="0.35"/>
+    <circle cx="954" cy="84" r="17" fill="#A78BFA"/>
+    <text x="954" y="90" text-anchor="middle" font-size="17" font-weight="800" fill="#04060C">4</text>
+    <text x="982" y="91" font-size="17" font-weight="800" fill="#F2FBF6">Historique</text>
+    <text x="938" y="126" font-size="13.5" font-weight="600" fill="#8AA092">Cycle archivé (épargne</text>
+    <text x="938" y="146" font-size="13.5" font-weight="600" fill="#8AA092">calculée), nouveau à 0.</text>
+    <text x="938" y="176" font-size="15" font-weight="800" fill="#A78BFA">+1 969 DH épargnés</text>
+  </g>
+</svg>

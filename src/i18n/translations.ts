@@ -1,0 +1,293 @@
+/**
+ * SpendWise translations — French (fr-MA) and Arabic (ar-MA).
+ * `ar` is typed as Record<TranslationKey, string> — the compiler
+ * enforces key parity between the two languages.
+ */
+
+export const fr = {
+  // Tabs
+  'tabs.home': 'Accueil',
+  'tabs.expenses': 'Dépenses',
+  'tabs.history': 'Historique',
+
+  // Common
+  'common.cancel': 'Annuler',
+  'common.delete': 'Supprimer',
+  'common.save': 'Enregistrer',
+  'common.today': 'Aujourd’hui',
+  'common.yesterday': 'Hier',
+
+  // Categories
+  'cat.food': 'Alimentation',
+  'cat.housing': 'Logement',
+  'cat.transport': 'Transport',
+  'cat.utilities': 'Factures & tél.',
+  'cat.health': 'Santé',
+  'cat.shopping': 'Shopping',
+  'cat.entertainment': 'Loisirs',
+  'cat.family': 'Famille',
+  'cat.education': 'Études',
+  'cat.other': 'Autre',
+
+  // Dashboard
+  'dashboard.brandSub': 'Salaire & dépenses, sous contrôle',
+  'dashboard.languageA11y': 'Changer la langue',
+  'dashboard.salaryActive': 'Salaire actif',
+  'dashboard.since': 'depuis le {date}',
+  'dashboard.cyclePeriod': '{range}',
+  'dashboard.cycleDay': 'Jour {day} sur {total}',
+  'dashboard.addExpense': 'Ajouter une dépense',
+  'dashboard.updateSalary': 'Changer de salaire / d’emploi',
+  'dashboard.latest': 'Dernières dépenses',
+  'dashboard.seeAll': 'Tout voir',
+  'dashboard.emptyLatest': 'Aucune dépense ce cycle — ajoutez-en une.',
+  'dashboard.setupHint': 'Aucun salaire défini — appuyez sur « Changer de salaire / d’emploi » pour commencer le suivi.',
+  'dashboard.footerNote': 'Toutes les données sont stockées sur cet appareil.',
+  'dashboard.kpiCount': 'Dépenses',
+  'dashboard.kpiAvgDay': 'Moy. / jour',
+  'dashboard.kpiBiggest': 'Plus gros',
+  'dashboard.kpiSaved': 'Épargne ce cycle',
+
+  // Budget / consumption bar
+  'budget.label': 'Salaire consommé',
+  'budget.left': 'Il reste {amount}',
+  'budget.over': 'Dépassement de {amount}',
+
+  // Expenses screen
+  'expenses.title': 'Dépenses du cycle',
+  'expenses.subtitle': '{count} dépenses · {amount}',
+  'expenses.searchPlaceholder': 'Rechercher une dépense…',
+  'expenses.searchA11y': 'Rechercher une dépense',
+  'expenses.clearSearch': 'Effacer la recherche',
+  'expenses.filterAll': 'Tous',
+  'expenses.noMatchTitle': 'Aucun résultat',
+  'expenses.noMatchSubtitle': 'Essayez un autre mot-clé ou effacez le filtre.',
+  'expenses.clearFilters': 'Effacer les filtres',
+  'expenses.emptyTitle': 'Aucune dépense ce cycle',
+  'expenses.emptySubtitle': 'Vos dépenses du mois apparaîtront ici, groupées par jour.',
+  'expenses.addFirst': 'Ajouter une dépense',
+  'expenses.deleteTitle': 'Supprimer la dépense',
+  'expenses.deleteBody': 'Retirer « {title} » du cycle ? Cette action est définitive.',
+  'expenses.footerTotal': 'Total du cycle',
+  'expenses.fabLabel': 'Ajouter',
+
+  // History screen
+  'history.title': 'Historique des cycles',
+  'history.subtitle': 'Vos mois clôturés, en un coup d’œil.',
+  'history.cumulativeSaved': 'Épargne cumulée',
+  'history.cyclesClosed_one': '{count} cycle clôturé',
+  'history.cyclesClosed_other': '{count} cycles clôturés',
+  'history.salary': 'Salaire',
+  'history.spent': 'Dépensé',
+  'history.saved': 'Épargné',
+  'history.emptyTitle': 'Aucun cycle clôturé',
+  'history.emptySubtitle': 'Quand vous changeriez de salaire ou d’emploi, le cycle en cours sera archivé ici.',
+  'history.bestCycle': 'Meilleur cycle',
+  'history.detailA11y': 'Voir le détail du cycle {month}',
+
+  // History detail
+  'detail.backA11y': 'Retour à l’historique',
+  'detail.salary': 'Salaire',
+  'detail.totalSpent': 'Total dépensé',
+  'detail.savedThisCycle': 'Épargné ce cycle',
+  'detail.consumed': '{pct} % du salaire consommé',
+  'detail.expensesOfCycle': 'Dépenses ({count})',
+  'detail.notFound': 'Cycle introuvable',
+  'detail.notFoundSubtitle': 'Ce cycle n’existe pas ou a été supprimé.',
+
+  // Add expense modal
+  'add.overline': 'Nouvelle',
+  'add.title': 'Nouvelle dépense',
+  'add.closeA11y': 'Fermer',
+  'add.titleLabel': 'Intitulé',
+  'add.titlePlaceholder': 'ex : Marjane — courses',
+  'add.amountLabel': 'Montant',
+  'add.categoryLabel': 'Catégorie',
+  'add.dateLabel': 'Date',
+  'add.dateA11y': 'Date de la dépense, format AAAA-MM-JJ',
+  'add.datePlaceholder': 'AAAA-MM-JJ',
+  'add.save': 'Ajouter la dépense',
+  'add.saveA11y': 'Ajouter la dépense',
+  'add.errorTitle': 'L’intitulé est requis',
+  'add.errorAmount': 'Entrez un montant valide (supérieur à 0)',
+  'add.errorDate': 'Format attendu : AAAA-MM-JJ',
+
+  // Update salary / job modal
+  'salary.overline': 'Nouveau salaire',
+  'salary.title': 'Salaire & emploi',
+  'salary.warningTitle': 'Ce que ça implique',
+  'salary.warningBody': 'Le cycle actuel ({period}) sera clôturé et archivé dans l’historique. Les dépenses repartent de zéro pour le nouveau cycle.',
+  'salary.amountLabel': 'Nouveau salaire net',
+  'salary.companyLabel': 'Entreprise',
+  'salary.companyPlaceholder': 'ex : Atlas Digital',
+  'salary.startLabel': 'Date d’effet',
+  'salary.startA11y': 'Date d’effet du nouveau salaire, format AAAA-MM-JJ',
+  'salary.save': 'Clôturer & enregistrer',
+  'salary.saveA11y': 'Clôturer le cycle et enregistrer le nouveau salaire',
+  'salary.confirmTitle': 'Clôturer le cycle ?',
+  'salary.confirmBody': '« {company} — {amount} » sera archivé avec {count} dépenses. Cette action est définitive.',
+  'salary.confirmButton': 'Clôturer le cycle',
+  'salary.confirmTitleFresh': 'Enregistrer le salaire ?',
+  'salary.confirmBodyFresh': '« {company} — {amount} » sera enregistré. Aucun cycle archivé : il n’y a rien à clôturer.',
+  'salary.confirmButtonFresh': 'Enregistrer',
+  'salary.recapCurrent': 'Salaire actuel',
+  'salary.recapSpent': 'Dépensé ce cycle',
+  'salary.recapCount': 'Dépenses comptées',
+  'salary.errorAmount': 'Entrez un montant valide (supérieur à 0)',
+  'salary.errorCompany': 'L’entreprise est requise',
+  'salary.errorDate': 'Format attendu : AAAA-MM-JJ',
+
+  // Language
+  'lang.label': 'Langue',
+  'lang.title': 'Langue de l’app',
+  'lang.fr': 'Français',
+  'lang.ar': 'العربية',
+  'lang.restartTitle': 'Redémarrage nécessaire',
+  'lang.restartBody': 'L’app va redémarrer pour appliquer la langue.',
+} as const;
+
+export type TranslationKey = keyof typeof fr;
+
+export const ar: Record<TranslationKey, string> = {
+  // Tabs
+  'tabs.home': 'الرئيسية',
+  'tabs.expenses': 'المصاريف',
+  'tabs.history': 'السجل',
+
+  // Common
+  'common.cancel': 'إلغاء',
+  'common.delete': 'حذف',
+  'common.save': 'حفظ',
+  'common.today': 'اليوم',
+  'common.yesterday': 'أمس',
+
+  // Categories
+  'cat.food': 'الأكل',
+  'cat.housing': 'السكن',
+  'cat.transport': 'التنقل',
+  'cat.utilities': 'فواتير واتصالات',
+  'cat.health': 'الصحة',
+  'cat.shopping': 'التسوق',
+  'cat.entertainment': 'الترفيه',
+  'cat.family': 'العائلة',
+  'cat.education': 'الدراسة',
+  'cat.other': 'أخرى',
+
+  // Dashboard
+  'dashboard.brandSub': 'الراتب والمصاريف تحت السيطرة',
+  'dashboard.languageA11y': 'تغيير اللغة',
+  'dashboard.salaryActive': 'الراتب النشط',
+  'dashboard.since': 'منذ {date}',
+  'dashboard.cyclePeriod': '{range}',
+  'dashboard.cycleDay': 'اليوم {day} من {total}',
+  'dashboard.addExpense': 'إضافة مصروف',
+  'dashboard.updateSalary': 'تغيير الراتب / العمل',
+  'dashboard.latest': 'آخر المصاريف',
+  'dashboard.seeAll': 'عرض الكل',
+  'dashboard.emptyLatest': 'لا توجد مصاريف هذه الدورة — أضف واحدًا.',
+  'dashboard.setupHint': 'لم يتم تعيين راتب — اضغط على «تغيير الراتب / العمل» لبدء المتابعة.',
+  'dashboard.footerNote': 'كل البيانات محفوظة محليًا على هذا الجهاز.',
+  'dashboard.kpiCount': 'مصروف',
+  'dashboard.kpiAvgDay': 'المعدل / يوم',
+  'dashboard.kpiBiggest': 'الأكبر',
+  'dashboard.kpiSaved': 'مدّخر هذه الدورة',
+
+  // Budget / consumption bar
+  'budget.label': 'استهلاك الراتب',
+  'budget.left': 'المتبقي {amount}',
+  'budget.over': 'التجاوز {amount}',
+
+  // Expenses screen
+  'expenses.title': 'مصاريف الدورة',
+  'expenses.subtitle': '{count} مصروف · {amount}',
+  'expenses.searchPlaceholder': 'ابحث عن مصروف…',
+  'expenses.searchA11y': 'ابحث عن مصروف',
+  'expenses.clearSearch': 'مسح البحث',
+  'expenses.filterAll': 'الكل',
+  'expenses.noMatchTitle': 'لا توجد نتائج',
+  'expenses.noMatchSubtitle': 'جرّب كلمة أخرى أو امسح التصفية.',
+  'expenses.clearFilters': 'مسح عوامل التصفية',
+  'expenses.emptyTitle': 'لا توجد مصاريف هذه الدورة',
+  'expenses.emptySubtitle': 'ستظهر مصاريفك مجمّعة حسب اليوم.',
+  'expenses.addFirst': 'إضافة مصروف',
+  'expenses.deleteTitle': 'حذف المصروف',
+  'expenses.deleteBody': 'إزالة «{title}» من الدورة؟ لا يمكن التراجع.',
+  'expenses.footerTotal': 'مجموع الدورة',
+  'expenses.fabLabel': 'إضافة',
+
+  // History screen
+  'history.title': 'سجل الدورات',
+  'history.subtitle': 'أشهرك المغلقة في لمحة.',
+  'history.cumulativeSaved': 'الادخار التراكمي',
+  'history.cyclesClosed_one': 'دورة واحدة مغلقة',
+  'history.cyclesClosed_other': '{count} دورات مغلقة',
+  'history.salary': 'الراتب',
+  'history.spent': 'تم صرفه',
+  'history.saved': 'مدّخر',
+  'history.emptyTitle': 'لا توجد دورات مغلقة',
+  'history.emptySubtitle': 'عند تغيير الراتب أو العمل، سيتم أرشفة الدورة الحالية هنا.',
+  'history.bestCycle': 'أفضل دورة',
+  'history.detailA11y': 'عرض تفاصيل دورة {month}',
+
+  // History detail
+  'detail.backA11y': 'العودة إلى السجل',
+  'detail.salary': 'الراتب',
+  'detail.totalSpent': 'مجموع المصاريف',
+  'detail.savedThisCycle': 'مدّخر هذه الدورة',
+  'detail.consumed': '{pct}% من الراتب مستهلك',
+  'detail.expensesOfCycle': 'المصاريف ({count})',
+  'detail.notFound': 'الدورة غير موجودة',
+  'detail.notFoundSubtitle': 'هذه الدورة غير موجودة أو تم حذفها.',
+
+  // Add expense modal
+  'add.overline': 'جديد',
+  'add.title': 'مصروف جديد',
+  'add.closeA11y': 'إغلاق',
+  'add.titleLabel': 'العنوان',
+  'add.titlePlaceholder': 'مثلاً: Marjane — courses',
+  'add.amountLabel': 'المبلغ',
+  'add.categoryLabel': 'الفئة',
+  'add.dateLabel': 'التاريخ',
+  'add.dateA11y': 'تاريخ المصروف، بصيغة سنة-شهر-يوم',
+  'add.datePlaceholder': 'YYYY-MM-DD',
+  'add.save': 'أضف المصروف',
+  'add.saveA11y': 'إضافة المصروف',
+  'add.errorTitle': 'العنوان مطلوب',
+  'add.errorAmount': 'أدخل مبلغًا صحيحًا أكبر من 0',
+  'add.errorDate': 'الصيغة المتوقعة: سنة-شهر-يوم',
+
+  // Update salary / job modal
+  'salary.overline': 'راتب جديد',
+  'salary.title': 'الراتب والعمل',
+  'salary.warningTitle': 'ما سيحدث',
+  'salary.warningBody': 'سيتم إغلاق الدورة الحالية ({period}) وأرشفتها في السجل. وتبدأ مصاريف الدورة الجديدة من الصفر.',
+  'salary.amountLabel': 'الراتب الصافي الجديد',
+  'salary.companyLabel': 'الشركة',
+  'salary.companyPlaceholder': 'مثلاً: Atlas Digital',
+  'salary.startLabel': 'تاريخ الدخول حيز التنفيذ',
+  'salary.startA11y': 'تاريخ بدء الراتب الجديد، بصيغة سنة-شهر-يوم',
+  'salary.save': 'أغلق وسجّل',
+  'salary.saveA11y': 'إغلاق الدورة وتسجيل الراتب الجديد',
+  'salary.confirmTitle': 'إغلاق الدورة؟',
+  'salary.confirmBody': 'سيتم أرشفة «{company} — {amount}» مع {count} مصروفًا. لا يمكن التراجع.',
+  'salary.confirmButton': 'إغلاق الدورة',
+  'salary.confirmTitleFresh': 'تسجيل الراتب؟',
+  'salary.confirmBodyFresh': 'سيتم تسجيل «{company} — {amount}». لا توجد دورة للأرشفة — لا شيء يُغلق.',
+  'salary.confirmButtonFresh': 'حفظ',
+  'salary.recapCurrent': 'الراتب الحالي',
+  'salary.recapSpent': 'مصاريف الدورة الحالية',
+  'salary.recapCount': 'عدد المصاريف',
+  'salary.errorAmount': 'أدخل مبلغًا صحيحًا أكبر من 0',
+  'salary.errorCompany': 'الشركة مطلوبة',
+  'salary.errorDate': 'الصيغة المتوقعة: سنة-شهر-يوم',
+
+  // Language
+  'lang.label': 'اللغة',
+  'lang.title': 'لغة التطبيق',
+  'lang.fr': 'Français',
+  'lang.ar': 'العربية',
+  'lang.restartTitle': 'يتطلب إعادة التشغيل',
+  'lang.restartBody': 'ستتم إعادة تشغيل التطبيق لتطبيق اللغة.',
+};
+
+export const translations: Record<'fr' | 'ar', Record<TranslationKey, string>> = { fr, ar };
